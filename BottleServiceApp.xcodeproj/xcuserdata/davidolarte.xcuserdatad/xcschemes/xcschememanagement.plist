@@ -7,7 +7,20 @@
 		<key>BottleServiceApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DE649E8A205110C10024ECEF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE9DD6D020DCA6860065D082</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

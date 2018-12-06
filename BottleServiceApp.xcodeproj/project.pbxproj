@@ -7,25 +7,287 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB84AE1EB73DFC7507888D87 /* Pods_BottleServiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F6600A10891FD702557A1E /* Pods_BottleServiceApp.framework */; };
+		DE18B2E420E1F96100742392 /* BasePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE18B2E320E1F96100742392 /* BasePrice.swift */; };
+		DE273789211D2C1E00E4622F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE273788211D2C1E00E4622F /* PageView.swift */; };
+		DE32A3D221509FFC00F32B8E /* ViewBarsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32A3D121509FFC00F32B8E /* ViewBarsCollectionViewCell.swift */; };
+		DE32A3D52150CA4500F32B8E /* UnregisteredBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32A3D42150CA4500F32B8E /* UnregisteredBarCollectionViewCell.swift */; };
+		DE32A3D72150CA7000F32B8E /* UnregisteredBarOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE32A3D62150CA7000F32B8E /* UnregisteredBarOwner.swift */; };
+		DE35F2BF20F34992003FD87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE35F2C120F34992003FD87A /* Main.storyboard */; };
+		DE35F2C720F35E8E003FD87A /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35F2C620F35E8E003FD87A /* Localizable.swift */; };
+		DE389C58210710B9001C6DE1 /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE389C57210710B9001C6DE1 /* ResetPassword.swift */; };
+		DE6057482164ACBC00F27478 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE6057472164ACBC00F27478 /* GoogleService-Info.plist */; };
 		DE649E8F205110C10024ECEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE649E8E205110C10024ECEF /* AppDelegate.swift */; };
-		DE649E91205110C10024ECEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE649E90205110C10024ECEF /* ViewController.swift */; };
-		DE649E94205110C10024ECEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE649E92205110C10024ECEF /* Main.storyboard */; };
-		DE649E96205110C60024ECEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE649E95205110C60024ECEF /* Assets.xcassets */; };
-		DE649E99205110C60024ECEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE649E97205110C60024ECEF /* LaunchScreen.storyboard */; };
+		DE87CFC620E3908300743BF3 /* DashboardOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87CFC520E3908300743BF3 /* DashboardOwner.swift */; };
+		DE87CFC820E494EA00743BF3 /* RegisterPersonalAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87CFC720E494EA00743BF3 /* RegisterPersonalAddress.swift */; };
+		DE87CFCA20E6126500743BF3 /* SearchLocationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE87CFC920E6126500743BF3 /* SearchLocationTableViewController.swift */; };
+		DE8F2722214F56D000FC6CDC /* ViewBars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F2721214F56D000FC6CDC /* ViewBars.swift */; };
+		DE9881282110454800F15DE2 /* ImageCollectionViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9881272110454800F15DE2 /* ImageCollectionViewCells.swift */; };
+		DE98812A211048A500F15DE2 /* SpecificLoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE988129211048A500F15DE2 /* SpecificLoc.swift */; };
+		DE98812C2112BA5500F15DE2 /* ZoomInZoomOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE98812B2112BA5500F15DE2 /* ZoomInZoomOut.swift */; };
+		DE9D6556216C9FDA00777E73 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9D6555216C9FDA00777E73 /* GradientButton.swift */; };
+		DE9DD6DC20DCAD0B0065D082 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DD6DB20DCAD0B0065D082 /* Settings.swift */; };
+		DE9DD6DF20DCB5FB0065D082 /* ViewLounges.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DD6DE20DCB5FB0065D082 /* ViewLounges.swift */; };
+		DE9DD6E120DCB74B0065D082 /* ViewLoungesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9DD6E020DCB74B0065D082 /* ViewLoungesCollectionViewCell.swift */; };
+		DEB66C1720E9DEC400FF6E00 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB66C1620E9DEC400FF6E00 /* ImageService.swift */; };
+		DEE1D1EC20DB80B4003444CD /* MessageControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1E820DB80B3003444CD /* MessageControllerApp.swift */; };
+		DEE1D1ED20DB80B4003444CD /* DashboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1E920DB80B4003444CD /* DashboardApp.swift */; };
+		DEE1D1EE20DB80B4003444CD /* NewMessageControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1EA20DB80B4003444CD /* NewMessageControllerApp.swift */; };
+		DEE1D1EF20DB80B4003444CD /* UnregisteredOwners.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1EB20DB80B4003444CD /* UnregisteredOwners.swift */; };
+		DEE1D1F320DB80DF003444CD /* UnregisteredCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F120DB80DF003444CD /* UnregisteredCollectionViewCell.swift */; };
+		DEE1D1F420DB80DF003444CD /* LoadUnregistered.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F220DB80DF003444CD /* LoadUnregistered.swift */; };
+		DEE1D1FB20DB811B003444CD /* BarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F520DB811A003444CD /* BarCollectionViewCell.swift */; };
+		DEE1D1FC20DB811B003444CD /* PayAndReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F620DB811A003444CD /* PayAndReview.swift */; };
+		DEE1D1FD20DB811B003444CD /* ShareFriends.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F720DB811A003444CD /* ShareFriends.swift */; };
+		DEE1D1FE20DB811B003444CD /* ClientSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F820DB811A003444CD /* ClientSettings.swift */; };
+		DEE1D1FF20DB811B003444CD /* ViewBarLoungeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1F920DB811B003444CD /* ViewBarLoungeEvent.swift */; };
+		DEE1D20020DB811B003444CD /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D1FA20DB811B003444CD /* MainPage.swift */; };
+		DEE1D20420DB8157003444CD /* BookingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20120DB8156003444CD /* BookingCollectionViewCell.swift */; };
+		DEE1D20520DB8157003444CD /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20220DB8156003444CD /* Booking.swift */; };
+		DEE1D20620DB8157003444CD /* LoadDataonBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20320DB8157003444CD /* LoadDataonBook.swift */; };
+		DEE1D20A20DB816A003444CD /* cImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20720DB816A003444CD /* cImageCollectionViewCell.swift */; };
+		DEE1D20B20DB816A003444CD /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20820DB816A003444CD /* EventCollectionViewCell.swift */; };
+		DEE1D20C20DB816A003444CD /* LoadDataMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20920DB816A003444CD /* LoadDataMain.swift */; };
+		DEE1D20F20DB817F003444CD /* LoadDataonSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20D20DB817F003444CD /* LoadDataonSpec.swift */; };
+		DEE1D21020DB817F003444CD /* SpecCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D20E20DB817F003444CD /* SpecCollectionViewCell.swift */; };
+		DEE1D21220DB81C6003444CD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21120DB81C6003444CD /* User.swift */; };
+		DEE1D21620DB81DC003444CD /* LoungeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21320DB81DB003444CD /* LoungeData.swift */; };
+		DEE1D21720DB81DC003444CD /* CustomImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21420DB81DC003444CD /* CustomImageFlowLayout.swift */; };
+		DEE1D21820DB81DC003444CD /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21520DB81DC003444CD /* ImageCollectionViewCell.swift */; };
+		DEE1D21E20DB81F4003444CD /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21920DB81F3003444CD /* LoginController+handlers.swift */; };
+		DEE1D21F20DB81F4003444CD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21A20DB81F3003444CD /* Message.swift */; };
+		DEE1D22020DB81F4003444CD /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21B20DB81F4003444CD /* MessageController.swift */; };
+		DEE1D22120DB81F4003444CD /* ChatLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21C20DB81F4003444CD /* ChatLogController.swift */; };
+		DEE1D22220DB81F4003444CD /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D21D20DB81F4003444CD /* NewMessageController.swift */; };
+		DEE1D22620DB820A003444CD /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22320DB820A003444CD /* UserCell.swift */; };
+		DEE1D22720DB820A003444CD /* ChatInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22420DB820A003444CD /* ChatInputContainerView.swift */; };
+		DEE1D22820DB820A003444CD /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22520DB820A003444CD /* ChatMessageCell.swift */; };
+		DEE1D22A20DB8214003444CD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22920DB8214003444CD /* Extensions.swift */; };
+		DEE1D22D20DB8225003444CD /* ProgressCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22B20DB8225003444CD /* ProgressCollectionViewCell.swift */; };
+		DEE1D22E20DB8225003444CD /* LoungeLoadProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22C20DB8225003444CD /* LoungeLoadProgress.swift */; };
+		DEE1D23320DB8241003444CD /* LoadDataonProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D22F20DB8241003444CD /* LoadDataonProgress.swift */; };
+		DEE1D23420DB8241003444CD /* LoadDataonPublished.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23020DB8241003444CD /* LoadDataonPublished.swift */; };
+		DEE1D23520DB8241003444CD /* ProgressBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23120DB8241003444CD /* ProgressBarCollectionViewCell.swift */; };
+		DEE1D23620DB8241003444CD /* PublishedBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23220DB8241003444CD /* PublishedBarCollectionViewCell.swift */; };
+		DEE1D23820DB824F003444CD /* ProgressEventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23720DB824F003444CD /* ProgressEventCollectionViewCell.swift */; };
+		DEE1D23F20DB829A003444CD /* BarReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23A20DB8299003444CD /* BarReservation.swift */; };
+		DEE1D24020DB829A003444CD /* BarReservationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23B20DB8299003444CD /* BarReservationCollectionViewCell.swift */; };
+		DEE1D24120DB829A003444CD /* LoungeReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23C20DB829A003444CD /* LoungeReservation.swift */; };
+		DEE1D24220DB829A003444CD /* LoadDataOnReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23D20DB829A003444CD /* LoadDataOnReservation.swift */; };
+		DEE1D24320DB829A003444CD /* LoungeReservationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D23E20DB829A003444CD /* LoungeReservationCollectionViewCell.swift */; };
+		DEE1D25020DB84AA003444CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEE1D24F20DB84AA003444CD /* LaunchScreen.storyboard */; };
+		DEE1D27D20DB8546003444CD /* SettheVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25220DB8531003444CD /* SettheVenue.swift */; };
+		DEE1D27E20DB8546003444CD /* Setvenue3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25320DB8531003444CD /* Setvenue3.swift */; };
+		DEE1D27F20DB8546003444CD /* SetForGuest1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25420DB8532003444CD /* SetForGuest1.swift */; };
+		DEE1D28020DB8546003444CD /* SelectLounge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25520DB8533003444CD /* SelectLounge.swift */; };
+		DEE1D28120DB8546003444CD /* SelectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25620DB8533003444CD /* SelectApp.swift */; };
+		DEE1D28220DB8546003444CD /* RegisterCompany5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25720DB8534003444CD /* RegisterCompany5.swift */; };
+		DEE1D28320DB8546003444CD /* iChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25820DB8534003444CD /* iChat.swift */; };
+		DEE1D28420DB8546003444CD /* LoungeOwnerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25920DB8535003444CD /* LoungeOwnerMain.swift */; };
+		DEE1D28520DB8546003444CD /* Setvenue2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25A20DB8535003444CD /* Setvenue2.swift */; };
+		DEE1D28620DB8546003444CD /* RegisterCompany2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25B20DB8536003444CD /* RegisterCompany2.swift */; };
+		DEE1D28720DB8546003444CD /* RegisterPersonal2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25C20DB8536003444CD /* RegisterPersonal2.swift */; };
+		DEE1D28820DB8546003444CD /* SelectUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25D20DB8537003444CD /* SelectUser.swift */; };
+		DEE1D28920DB8546003444CD /* StartwithBasic1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25E20DB8538003444CD /* StartwithBasic1.swift */; };
+		DEE1D28A20DB8546003444CD /* SelectAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D25F20DB8538003444CD /* SelectAccount.swift */; };
+		DEE1D28B20DB8546003444CD /* LocationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26020DB8538003444CD /* LocationBar.swift */; };
+		DEE1D28C20DB8546003444CD /* RegisterCompany1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26120DB8539003444CD /* RegisterCompany1.swift */; };
+		DEE1D28D20DB8546003444CD /* RegisterCompany3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26220DB8539003444CD /* RegisterCompany3.swift */; };
+		DEE1D28E20DB8546003444CD /* Setvenue1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26320DB8539003444CD /* Setvenue1.swift */; };
+		DEE1D28F20DB8546003444CD /* ReservationLounge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26420DB8539003444CD /* ReservationLounge.swift */; };
+		DEE1D29020DB8546003444CD /* StartwithBasic5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26520DB8539003444CD /* StartwithBasic5.swift */; };
+		DEE1D29120DB8546003444CD /* SelectClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26620DB8539003444CD /* SelectClient.swift */; };
+		DEE1D29220DB8546003444CD /* Setvenue5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26720DB8539003444CD /* Setvenue5.swift */; };
+		DEE1D29320DB8546003444CD /* StartWithBasic3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26820DB853A003444CD /* StartWithBasic3.swift */; };
+		DEE1D29420DB8546003444CD /* EditProfileLounge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26920DB853A003444CD /* EditProfileLounge.swift */; };
+		DEE1D29520DB8546003444CD /* LocationLoungeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26A20DB853A003444CD /* LocationLoungeController.swift */; };
+		DEE1D29620DB8546003444CD /* RegisterCompany6.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26B20DB853C003444CD /* RegisterCompany6.swift */; };
+		DEE1D29720DB8546003444CD /* StartwithBasic4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26C20DB853C003444CD /* StartwithBasic4.swift */; };
+		DEE1D29820DB8546003444CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26D20DB853D003444CD /* ViewController.swift */; };
+		DEE1D29920DB8546003444CD /* RegisterPersonal3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26E20DB853D003444CD /* RegisterPersonal3.swift */; };
+		DEE1D29A20DB8546003444CD /* Startwithbasic2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D26F20DB853E003444CD /* Startwithbasic2.swift */; };
+		DEE1D29B20DB8546003444CD /* RegisterClient1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27020DB853F003444CD /* RegisterClient1.swift */; };
+		DEE1D29C20DB8546003444CD /* RegisterCompany4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27120DB853F003444CD /* RegisterCompany4.swift */; };
+		DEE1D29D20DB8546003444CD /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27220DB853F003444CD /* AppMain.swift */; };
+		DEE1D29F20DB8546003444CD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27420DB8541003444CD /* Login.swift */; };
+		DEE1D2A020DB8546003444CD /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27520DB8541003444CD /* CustomCell.swift */; };
+		DEE1D2A120DB8546003444CD /* LocationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27620DB8542003444CD /* LocationEvent.swift */; };
+		DEE1D2A220DB8546003444CD /* Setup1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27720DB8543003444CD /* Setup1.swift */; };
+		DEE1D2A320DB8546003444CD /* Setvenue4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27820DB8543003444CD /* Setvenue4.swift */; };
+		DEE1D2A420DB8546003444CD /* RegisterPersonal4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27920DB8544003444CD /* RegisterPersonal4.swift */; };
+		DEE1D2A520DB8546003444CD /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27A20DB8545003444CD /* test.swift */; };
+		DEE1D2A620DB8546003444CD /* ClientMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27B20DB8545003444CD /* ClientMain.swift */; };
+		DEE1D2A720DB8546003444CD /* RegisterPersonal1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D27C20DB8546003444CD /* RegisterPersonal1.swift */; };
+		DEE1D2A920DB855A003444CD /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE1D2A820DB855A003444CD /* Account.swift */; };
+		DEE1D2AB20DB85EC003444CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEE1D2AA20DB85EC003444CD /* Default-568h@2x.png */; };
+		DEE1D2AF20DB89AD003444CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE1D2AE20DB89A6003444CD /* Assets.xcassets */; };
+		DEEB0A80212559A300F86BC4 /* BarAppOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB0A7F212559A300F86BC4 /* BarAppOwner.swift */; };
+		DEEB0A82212566BE00F86BC4 /* AppBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB0A81212566BE00F86BC4 /* AppBarCollectionViewCell.swift */; };
+		DEEB0A842125677A00F86BC4 /* AppBarPubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB0A832125677A00F86BC4 /* AppBarPubCollectionViewCell.swift */; };
+		DEEB0A87212A501F00F86BC4 /* LoungeAppOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB0A86212A501F00F86BC4 /* LoungeAppOwner.swift */; };
+		DEEB0A89212A518900F86BC4 /* LoungeAppProgCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB0A88212A518900F86BC4 /* LoungeAppProgCollectionViewCell.swift */; };
+		DEEB0A8B212A51AF00F86BC4 /* LoungeAppPubCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEB0A8A212A51AF00F86BC4 /* LoungeAppPubCollectionViewCell.swift */; };
+		DEF471B2216DE53A00B7EFDF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF471B1216DE53A00B7EFDF /* SettingsViewController.swift */; };
+		DEF57B1E21197C6600C35BA2 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF57B1D21197C6600C35BA2 /* CheckBox.swift */; };
+		DEF57B202119866800C35BA2 /* LoadDataViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF57B1F2119866800C35BA2 /* LoadDataViews.swift */; };
+		DEFF66B5210732ED009CFD6D /* AfterReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF66B4210732ED009CFD6D /* AfterReset.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DE9DD6D620DCA6860065D082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE649E83205110C10024ECEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE649E8A205110C10024ECEF;
+			remoteInfo = BottleServiceApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		84F6600A10891FD702557A1E /* Pods_BottleServiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BottleServiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6019EBD14927B9AB4AF6CDD /* Pods-BottleServiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottleServiceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BottleServiceApp/Pods-BottleServiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		CD03066FEF9ED86D4DF02E26 /* Pods-BottleServiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BottleServiceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BottleServiceApp/Pods-BottleServiceApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE18B2E320E1F96100742392 /* BasePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePrice.swift; sourceTree = "<group>"; };
+		DE273788211D2C1E00E4622F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		DE32A3D121509FFC00F32B8E /* ViewBarsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBarsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE32A3D42150CA4500F32B8E /* UnregisteredBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnregisteredBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE32A3D62150CA7000F32B8E /* UnregisteredBarOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnregisteredBarOwner.swift; sourceTree = "<group>"; };
+		DE35F2C320F34B90003FD87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE35F2C420F34BF4003FD87A /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		DE35F2C620F35E8E003FD87A /* Localizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		DE389C57210710B9001C6DE1 /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		DE6057472164ACBC00F27478 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE649E8B205110C10024ECEF /* BottleServiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleServiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE649E8E205110C10024ECEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE649E90205110C10024ECEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE649E93205110C10024ECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE649E95205110C60024ECEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE649E98205110C60024ECEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE649E9A205110C60024ECEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE87CFC520E3908300743BF3 /* DashboardOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardOwner.swift; sourceTree = "<group>"; };
+		DE87CFC720E494EA00743BF3 /* RegisterPersonalAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPersonalAddress.swift; sourceTree = "<group>"; };
+		DE87CFC920E6126500743BF3 /* SearchLocationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationTableViewController.swift; sourceTree = "<group>"; };
+		DE8F2721214F56D000FC6CDC /* ViewBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBars.swift; sourceTree = "<group>"; };
+		DE9881272110454800F15DE2 /* ImageCollectionViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCells.swift; sourceTree = "<group>"; };
+		DE988129211048A500F15DE2 /* SpecificLoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificLoc.swift; sourceTree = "<group>"; };
+		DE98812B2112BA5500F15DE2 /* ZoomInZoomOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInZoomOut.swift; sourceTree = "<group>"; };
+		DE9D6555216C9FDA00777E73 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		DE9DD6D120DCA6860065D082 /* BottleServiceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottleServiceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9DD6DB20DCAD0B0065D082 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DE9DD6DE20DCB5FB0065D082 /* ViewLounges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLounges.swift; sourceTree = "<group>"; };
+		DE9DD6E020DCB74B0065D082 /* ViewLoungesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewLoungesCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEA9E3B820F5BB220076BDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DEB66C1620E9DEC400FF6E00 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		DEE1D1E820DB80B3003444CD /* MessageControllerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageControllerApp.swift; sourceTree = "<group>"; };
+		DEE1D1E920DB80B4003444CD /* DashboardApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardApp.swift; sourceTree = "<group>"; };
+		DEE1D1EA20DB80B4003444CD /* NewMessageControllerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageControllerApp.swift; sourceTree = "<group>"; };
+		DEE1D1EB20DB80B4003444CD /* UnregisteredOwners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnregisteredOwners.swift; sourceTree = "<group>"; };
+		DEE1D1F120DB80DF003444CD /* UnregisteredCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnregisteredCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D1F220DB80DF003444CD /* LoadUnregistered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadUnregistered.swift; sourceTree = "<group>"; };
+		DEE1D1F520DB811A003444CD /* BarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D1F620DB811A003444CD /* PayAndReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayAndReview.swift; sourceTree = "<group>"; };
+		DEE1D1F720DB811A003444CD /* ShareFriends.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareFriends.swift; sourceTree = "<group>"; };
+		DEE1D1F820DB811A003444CD /* ClientSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientSettings.swift; sourceTree = "<group>"; };
+		DEE1D1F920DB811B003444CD /* ViewBarLoungeEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBarLoungeEvent.swift; sourceTree = "<group>"; };
+		DEE1D1FA20DB811B003444CD /* MainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		DEE1D20120DB8156003444CD /* BookingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D20220DB8156003444CD /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		DEE1D20320DB8157003444CD /* LoadDataonBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataonBook.swift; sourceTree = "<group>"; };
+		DEE1D20720DB816A003444CD /* cImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D20820DB816A003444CD /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D20920DB816A003444CD /* LoadDataMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataMain.swift; sourceTree = "<group>"; };
+		DEE1D20D20DB817F003444CD /* LoadDataonSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataonSpec.swift; sourceTree = "<group>"; };
+		DEE1D20E20DB817F003444CD /* SpecCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D21120DB81C6003444CD /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DEE1D21320DB81DB003444CD /* LoungeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoungeData.swift; sourceTree = "<group>"; };
+		DEE1D21420DB81DC003444CD /* CustomImageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageFlowLayout.swift; sourceTree = "<group>"; };
+		DEE1D21520DB81DC003444CD /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D21920DB81F3003444CD /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		DEE1D21A20DB81F3003444CD /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DEE1D21B20DB81F4003444CD /* MessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
+		DEE1D21C20DB81F4003444CD /* ChatLogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatLogController.swift; sourceTree = "<group>"; };
+		DEE1D21D20DB81F4003444CD /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		DEE1D22320DB820A003444CD /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		DEE1D22420DB820A003444CD /* ChatInputContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatInputContainerView.swift; sourceTree = "<group>"; };
+		DEE1D22520DB820A003444CD /* ChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		DEE1D22920DB8214003444CD /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DEE1D22B20DB8225003444CD /* ProgressCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D22C20DB8225003444CD /* LoungeLoadProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoungeLoadProgress.swift; sourceTree = "<group>"; };
+		DEE1D22F20DB8241003444CD /* LoadDataonProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataonProgress.swift; sourceTree = "<group>"; };
+		DEE1D23020DB8241003444CD /* LoadDataonPublished.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataonPublished.swift; sourceTree = "<group>"; };
+		DEE1D23120DB8241003444CD /* ProgressBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D23220DB8241003444CD /* PublishedBarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublishedBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D23720DB824F003444CD /* ProgressEventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressEventCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D23A20DB8299003444CD /* BarReservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarReservation.swift; sourceTree = "<group>"; };
+		DEE1D23B20DB8299003444CD /* BarReservationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarReservationCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D23C20DB829A003444CD /* LoungeReservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoungeReservation.swift; sourceTree = "<group>"; };
+		DEE1D23D20DB829A003444CD /* LoadDataOnReservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadDataOnReservation.swift; sourceTree = "<group>"; };
+		DEE1D23E20DB829A003444CD /* LoungeReservationCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoungeReservationCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEE1D24F20DB84AA003444CD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEE1D25220DB8531003444CD /* SettheVenue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettheVenue.swift; sourceTree = "<group>"; };
+		DEE1D25320DB8531003444CD /* Setvenue3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setvenue3.swift; sourceTree = "<group>"; };
+		DEE1D25420DB8532003444CD /* SetForGuest1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetForGuest1.swift; sourceTree = "<group>"; };
+		DEE1D25520DB8533003444CD /* SelectLounge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLounge.swift; sourceTree = "<group>"; };
+		DEE1D25620DB8533003444CD /* SelectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectApp.swift; sourceTree = "<group>"; };
+		DEE1D25720DB8534003444CD /* RegisterCompany5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompany5.swift; sourceTree = "<group>"; };
+		DEE1D25820DB8534003444CD /* iChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iChat.swift; sourceTree = "<group>"; };
+		DEE1D25920DB8535003444CD /* LoungeOwnerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoungeOwnerMain.swift; sourceTree = "<group>"; };
+		DEE1D25A20DB8535003444CD /* Setvenue2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setvenue2.swift; sourceTree = "<group>"; };
+		DEE1D25B20DB8536003444CD /* RegisterCompany2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompany2.swift; sourceTree = "<group>"; };
+		DEE1D25C20DB8536003444CD /* RegisterPersonal2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPersonal2.swift; sourceTree = "<group>"; };
+		DEE1D25D20DB8537003444CD /* SelectUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUser.swift; sourceTree = "<group>"; };
+		DEE1D25E20DB8538003444CD /* StartwithBasic1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartwithBasic1.swift; sourceTree = "<group>"; };
+		DEE1D25F20DB8538003444CD /* SelectAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectAccount.swift; sourceTree = "<group>"; };
+		DEE1D26020DB8538003444CD /* LocationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationBar.swift; sourceTree = "<group>"; };
+		DEE1D26120DB8539003444CD /* RegisterCompany1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompany1.swift; sourceTree = "<group>"; };
+		DEE1D26220DB8539003444CD /* RegisterCompany3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompany3.swift; sourceTree = "<group>"; };
+		DEE1D26320DB8539003444CD /* Setvenue1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setvenue1.swift; sourceTree = "<group>"; };
+		DEE1D26420DB8539003444CD /* ReservationLounge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationLounge.swift; sourceTree = "<group>"; };
+		DEE1D26520DB8539003444CD /* StartwithBasic5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartwithBasic5.swift; sourceTree = "<group>"; };
+		DEE1D26620DB8539003444CD /* SelectClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectClient.swift; sourceTree = "<group>"; };
+		DEE1D26720DB8539003444CD /* Setvenue5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setvenue5.swift; sourceTree = "<group>"; };
+		DEE1D26820DB853A003444CD /* StartWithBasic3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWithBasic3.swift; sourceTree = "<group>"; };
+		DEE1D26920DB853A003444CD /* EditProfileLounge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileLounge.swift; sourceTree = "<group>"; };
+		DEE1D26A20DB853A003444CD /* LocationLoungeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationLoungeController.swift; sourceTree = "<group>"; };
+		DEE1D26B20DB853C003444CD /* RegisterCompany6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompany6.swift; sourceTree = "<group>"; };
+		DEE1D26C20DB853C003444CD /* StartwithBasic4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartwithBasic4.swift; sourceTree = "<group>"; };
+		DEE1D26D20DB853D003444CD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEE1D26E20DB853D003444CD /* RegisterPersonal3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPersonal3.swift; sourceTree = "<group>"; };
+		DEE1D26F20DB853E003444CD /* Startwithbasic2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Startwithbasic2.swift; sourceTree = "<group>"; };
+		DEE1D27020DB853F003444CD /* RegisterClient1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterClient1.swift; sourceTree = "<group>"; };
+		DEE1D27120DB853F003444CD /* RegisterCompany4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCompany4.swift; sourceTree = "<group>"; };
+		DEE1D27220DB853F003444CD /* AppMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
+		DEE1D27420DB8541003444CD /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		DEE1D27520DB8541003444CD /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		DEE1D27620DB8542003444CD /* LocationEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationEvent.swift; sourceTree = "<group>"; };
+		DEE1D27720DB8543003444CD /* Setup1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setup1.swift; sourceTree = "<group>"; };
+		DEE1D27820DB8543003444CD /* Setvenue4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setvenue4.swift; sourceTree = "<group>"; };
+		DEE1D27920DB8544003444CD /* RegisterPersonal4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPersonal4.swift; sourceTree = "<group>"; };
+		DEE1D27A20DB8545003444CD /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		DEE1D27B20DB8545003444CD /* ClientMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientMain.swift; sourceTree = "<group>"; };
+		DEE1D27C20DB8546003444CD /* RegisterPersonal1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPersonal1.swift; sourceTree = "<group>"; };
+		DEE1D2A820DB855A003444CD /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		DEE1D2AA20DB85EC003444CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEE1D2AE20DB89A6003444CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEE48EBB21007C4B003BC5F7 /* BottleServiceApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BottleServiceApp.entitlements; sourceTree = "<group>"; };
+		DEEB0A7F212559A300F86BC4 /* BarAppOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAppOwner.swift; sourceTree = "<group>"; };
+		DEEB0A81212566BE00F86BC4 /* AppBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEEB0A832125677A00F86BC4 /* AppBarPubCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBarPubCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEEB0A86212A501F00F86BC4 /* LoungeAppOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeAppOwner.swift; sourceTree = "<group>"; };
+		DEEB0A88212A518900F86BC4 /* LoungeAppProgCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeAppProgCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEEB0A8A212A51AF00F86BC4 /* LoungeAppPubCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoungeAppPubCollectionViewCell.swift; sourceTree = "<group>"; };
+		DEF471B1216DE53A00B7EFDF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		DEF57B1D21197C6600C35BA2 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		DEF57B1F2119866800C35BA2 /* LoadDataViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadDataViews.swift; sourceTree = "<group>"; };
+		DEFF66B4210732ED009CFD6D /* AfterReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterReset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DE649E88205110C10024ECEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB84AE1EB73DFC7507888D87 /* Pods_BottleServiceApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9DD6CE20DCA6860065D082 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,11 +297,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A140180CD1A348E1AFB69E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD03066FEF9ED86D4DF02E26 /* Pods-BottleServiceApp.debug.xcconfig */,
+				A6019EBD14927B9AB4AF6CDD /* Pods-BottleServiceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C550BD4BE6EF74015FDA182 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F6600A10891FD702557A1E /* Pods_BottleServiceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE0563FC207478A500DF7FBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D22420DB820A003444CD /* ChatInputContainerView.swift */,
+				DEE1D22520DB820A003444CD /* ChatMessageCell.swift */,
+				DEE1D22320DB820A003444CD /* UserCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE05640920747E4000DF7FBA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D22920DB8214003444CD /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DE32A3D32150CA2900F32B8E /* UnregisteredOwnerBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE32A3D42150CA4500F32B8E /* UnregisteredBarCollectionViewCell.swift */,
+				DE32A3D62150CA7000F32B8E /* UnregisteredBarOwner.swift */,
+			);
+			path = UnregisteredOwnerBar;
+			sourceTree = "<group>";
+		};
+		DE35F2C520F35E77003FD87A /* Languages */ = {
+			isa = PBXGroup;
+			children = (
+				DE35F2C620F35E8E003FD87A /* Localizable.swift */,
+			);
+			path = Languages;
+			sourceTree = "<group>";
+		};
+		DE4A96A420AD3CFE00FAE4B9 /* ProgressLounge */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D22C20DB8225003444CD /* LoungeLoadProgress.swift */,
+				DEE1D22B20DB8225003444CD /* ProgressCollectionViewCell.swift */,
+			);
+			path = ProgressLounge;
+			sourceTree = "<group>";
+		};
+		DE4A96A920AD562300FAE4B9 /* LocationBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE4A96AA20AD563100FAE4B9 /* BarProgress */,
+			);
+			path = LocationBar;
+			sourceTree = "<group>";
+		};
+		DE4A96AA20AD563100FAE4B9 /* BarProgress */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D22F20DB8241003444CD /* LoadDataonProgress.swift */,
+				DEE1D23020DB8241003444CD /* LoadDataonPublished.swift */,
+				DEE1D23120DB8241003444CD /* ProgressBarCollectionViewCell.swift */,
+				DEE1D23220DB8241003444CD /* PublishedBarCollectionViewCell.swift */,
+			);
+			path = BarProgress;
+			sourceTree = "<group>";
+		};
+		DE4A96B520AD757E00FAE4B9 /* LocationEvent */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D23720DB824F003444CD /* ProgressEventCollectionViewCell.swift */,
+			);
+			path = LocationEvent;
+			sourceTree = "<group>";
+		};
 		DE649E82205110C10024ECEF = {
 			isa = PBXGroup;
 			children = (
+				DE9D6554216C9E6100777E73 /* Gradient */,
+				DE35F2C520F35E77003FD87A /* Languages */,
+				DEE1D2AA20DB85EC003444CD /* Default-568h@2x.png */,
+				DE6F83E620C66F8300EA1CCB /* BSAppOwnerV1 */,
+				DE6F83C820C6637400EA1CCB /* BSClientAppV1 */,
 				DE649E8D205110C10024ECEF /* BottleServiceApp */,
 				DE649E8C205110C10024ECEF /* Products */,
+				4A140180CD1A348E1AFB69E7 /* Pods */,
+				4C550BD4BE6EF74015FDA182 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				DE649E8B205110C10024ECEF /* BottleServiceApp.app */,
+				DE9DD6D120DCA6860065D082 /* BottleServiceAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +412,275 @@
 		DE649E8D205110C10024ECEF /* BottleServiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				DEF471B0216DE50D00B7EFDF /* SettingsUserApp */,
+				DE988126211044FF00F15DE2 /* SpecTools */,
+				DEE48EBB21007C4B003BC5F7 /* BottleServiceApp.entitlements */,
+				DE87CFC420E3906200743BF3 /* DashboardGroup */,
+				DEE1D25120DB8511003444CD /* AllSwift */,
+				DEE1D23920DB8284003444CD /* ReservationController */,
+				DE4A96B520AD757E00FAE4B9 /* LocationEvent */,
+				DE4A96A920AD562300FAE4B9 /* LocationBar */,
+				DE4A96A420AD3CFE00FAE4B9 /* ProgressLounge */,
+				DE05640920747E4000DF7FBA /* Helpers */,
+				DE0563FC207478A500DF7FBA /* View */,
+				DEAB644B206B799E003F37B6 /* Controller */,
+				DE913A2420A2891800FBE1C5 /* CollectionViewForLocation */,
+				DEAB6448206B7921003F37B6 /* Model */,
 				DE649E8E205110C10024ECEF /* AppDelegate.swift */,
-				DE649E90205110C10024ECEF /* ViewController.swift */,
-				DE649E92205110C10024ECEF /* Main.storyboard */,
-				DE649E95205110C60024ECEF /* Assets.xcassets */,
-				DE649E97205110C60024ECEF /* LaunchScreen.storyboard */,
-				DE649E9A205110C60024ECEF /* Info.plist */,
 			);
 			path = BottleServiceApp;
+			sourceTree = "<group>";
+		};
+		DE6F83C820C6637400EA1CCB /* BSClientAppV1 */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F2720214F56B500FC6CDC /* ViewBar */,
+				DE9DD6DD20DCB5E50065D082 /* ViewLounges */,
+				DE6F83D920C663F000EA1CCB /* SpecLocations */,
+				DEE1D1F520DB811A003444CD /* BarCollectionViewCell.swift */,
+				DEE1D1F820DB811A003444CD /* ClientSettings.swift */,
+				DEE1D1FA20DB811B003444CD /* MainPage.swift */,
+				DEE1D1F620DB811A003444CD /* PayAndReview.swift */,
+				DEE1D1F720DB811A003444CD /* ShareFriends.swift */,
+				DE9DD6DB20DCAD0B0065D082 /* Settings.swift */,
+				DEE1D1F920DB811B003444CD /* ViewBarLoungeEvent.swift */,
+				DE6F83D220C663D000EA1CCB /* LoungesController */,
+				DE6F83CB20C663B200EA1CCB /* BookingController */,
+				DE87CFC920E6126500743BF3 /* SearchLocationTableViewController.swift */,
+				DEB66C1620E9DEC400FF6E00 /* ImageService.swift */,
+				DE98812B2112BA5500F15DE2 /* ZoomInZoomOut.swift */,
+				DEF57B1D21197C6600C35BA2 /* CheckBox.swift */,
+				DE273788211D2C1E00E4622F /* PageView.swift */,
+			);
+			path = BSClientAppV1;
+			sourceTree = "<group>";
+		};
+		DE6F83CB20C663B200EA1CCB /* BookingController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D20220DB8156003444CD /* Booking.swift */,
+				DEE1D20120DB8156003444CD /* BookingCollectionViewCell.swift */,
+				DEE1D20320DB8157003444CD /* LoadDataonBook.swift */,
+			);
+			name = BookingController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DE6F83D220C663D000EA1CCB /* LoungesController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D20720DB816A003444CD /* cImageCollectionViewCell.swift */,
+				DEE1D20820DB816A003444CD /* EventCollectionViewCell.swift */,
+				DEE1D20920DB816A003444CD /* LoadDataMain.swift */,
+			);
+			path = LoungesController;
+			sourceTree = "<group>";
+		};
+		DE6F83D920C663F000EA1CCB /* SpecLocations */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D20D20DB817F003444CD /* LoadDataonSpec.swift */,
+				DEE1D20E20DB817F003444CD /* SpecCollectionViewCell.swift */,
+			);
+			path = SpecLocations;
+			sourceTree = "<group>";
+		};
+		DE6F83E620C66F8300EA1CCB /* BSAppOwnerV1 */ = {
+			isa = PBXGroup;
+			children = (
+				DE32A3D32150CA2900F32B8E /* UnregisteredOwnerBar */,
+				DEEB0A85212A500100F86BC4 /* LoungesFile */,
+				DEEB0A7E2125596800F86BC4 /* BarFiles */,
+				DEE1D1F020DB80C0003444CD /* UnregisteredOwners */,
+				DEE1D1E920DB80B4003444CD /* DashboardApp.swift */,
+				DEE1D1E820DB80B3003444CD /* MessageControllerApp.swift */,
+				DEE1D1EA20DB80B4003444CD /* NewMessageControllerApp.swift */,
+				DEE1D1EB20DB80B4003444CD /* UnregisteredOwners.swift */,
+			);
+			path = BSAppOwnerV1;
+			sourceTree = "<group>";
+		};
+		DE87CFC420E3906200743BF3 /* DashboardGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DE87CFC520E3908300743BF3 /* DashboardOwner.swift */,
+			);
+			path = DashboardGroup;
+			sourceTree = "<group>";
+		};
+		DE8F2720214F56B500FC6CDC /* ViewBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE8F2721214F56D000FC6CDC /* ViewBars.swift */,
+				DE32A3D121509FFC00F32B8E /* ViewBarsCollectionViewCell.swift */,
+			);
+			path = ViewBar;
+			sourceTree = "<group>";
+		};
+		DE913A2420A2891800FBE1C5 /* CollectionViewForLocation */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D21420DB81DC003444CD /* CustomImageFlowLayout.swift */,
+				DEE1D21520DB81DC003444CD /* ImageCollectionViewCell.swift */,
+				DEE1D21320DB81DB003444CD /* LoungeData.swift */,
+			);
+			path = CollectionViewForLocation;
+			sourceTree = "<group>";
+		};
+		DE988126211044FF00F15DE2 /* SpecTools */ = {
+			isa = PBXGroup;
+			children = (
+				DE9881272110454800F15DE2 /* ImageCollectionViewCells.swift */,
+				DE988129211048A500F15DE2 /* SpecificLoc.swift */,
+			);
+			path = SpecTools;
+			sourceTree = "<group>";
+		};
+		DE9D6554216C9E6100777E73 /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				DE9D6555216C9FDA00777E73 /* GradientButton.swift */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		DE9DD6DD20DCB5E50065D082 /* ViewLounges */ = {
+			isa = PBXGroup;
+			children = (
+				DE9DD6DE20DCB5FB0065D082 /* ViewLounges.swift */,
+				DE9DD6E020DCB74B0065D082 /* ViewLoungesCollectionViewCell.swift */,
+				DEF57B1F2119866800C35BA2 /* LoadDataViews.swift */,
+			);
+			path = ViewLounges;
+			sourceTree = "<group>";
+		};
+		DEAB6448206B7921003F37B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D24F20DB84AA003444CD /* LaunchScreen.storyboard */,
+				DE35F2C120F34992003FD87A /* Main.storyboard */,
+				DEE1D21120DB81C6003444CD /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DEAB644B206B799E003F37B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D21C20DB81F4003444CD /* ChatLogController.swift */,
+				DEE1D21920DB81F3003444CD /* LoginController+handlers.swift */,
+				DEE1D21A20DB81F3003444CD /* Message.swift */,
+				DEE1D21B20DB81F4003444CD /* MessageController.swift */,
+				DEE1D21D20DB81F4003444CD /* NewMessageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DEE1D1F020DB80C0003444CD /* UnregisteredOwners */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D1F220DB80DF003444CD /* LoadUnregistered.swift */,
+				DEE1D1F120DB80DF003444CD /* UnregisteredCollectionViewCell.swift */,
+			);
+			name = UnregisteredOwners;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		DEE1D23920DB8284003444CD /* ReservationController */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D23A20DB8299003444CD /* BarReservation.swift */,
+				DEE1D23B20DB8299003444CD /* BarReservationCollectionViewCell.swift */,
+				DEE1D23D20DB829A003444CD /* LoadDataOnReservation.swift */,
+				DEE1D23C20DB829A003444CD /* LoungeReservation.swift */,
+				DEE1D23E20DB829A003444CD /* LoungeReservationCollectionViewCell.swift */,
+			);
+			path = ReservationController;
+			sourceTree = "<group>";
+		};
+		DEE1D25120DB8511003444CD /* AllSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DEE1D2A820DB855A003444CD /* Account.swift */,
+				DEE1D27220DB853F003444CD /* AppMain.swift */,
+				DEE1D27B20DB8545003444CD /* ClientMain.swift */,
+				DEE1D27520DB8541003444CD /* CustomCell.swift */,
+				DEE1D26920DB853A003444CD /* EditProfileLounge.swift */,
+				DEE1D25820DB8534003444CD /* iChat.swift */,
+				DEE1D26020DB8538003444CD /* LocationBar.swift */,
+				DEE1D27620DB8542003444CD /* LocationEvent.swift */,
+				DEE1D26A20DB853A003444CD /* LocationLoungeController.swift */,
+				DEE1D27420DB8541003444CD /* Login.swift */,
+				DEE1D25920DB8535003444CD /* LoungeOwnerMain.swift */,
+				DEE1D27020DB853F003444CD /* RegisterClient1.swift */,
+				DEE1D26120DB8539003444CD /* RegisterCompany1.swift */,
+				DEE1D25B20DB8536003444CD /* RegisterCompany2.swift */,
+				DEE1D26220DB8539003444CD /* RegisterCompany3.swift */,
+				DEE1D27120DB853F003444CD /* RegisterCompany4.swift */,
+				DEE1D25720DB8534003444CD /* RegisterCompany5.swift */,
+				DEE1D26B20DB853C003444CD /* RegisterCompany6.swift */,
+				DEE1D27C20DB8546003444CD /* RegisterPersonal1.swift */,
+				DEE1D25C20DB8536003444CD /* RegisterPersonal2.swift */,
+				DEE1D26E20DB853D003444CD /* RegisterPersonal3.swift */,
+				DEE1D27920DB8544003444CD /* RegisterPersonal4.swift */,
+				DEE1D26420DB8539003444CD /* ReservationLounge.swift */,
+				DEE1D25F20DB8538003444CD /* SelectAccount.swift */,
+				DEE1D25620DB8533003444CD /* SelectApp.swift */,
+				DEE1D26620DB8539003444CD /* SelectClient.swift */,
+				DEE1D25520DB8533003444CD /* SelectLounge.swift */,
+				DEE1D25D20DB8537003444CD /* SelectUser.swift */,
+				DEE1D25420DB8532003444CD /* SetForGuest1.swift */,
+				DEE1D25220DB8531003444CD /* SettheVenue.swift */,
+				DEE1D27720DB8543003444CD /* Setup1.swift */,
+				DEE1D26320DB8539003444CD /* Setvenue1.swift */,
+				DEE1D25A20DB8535003444CD /* Setvenue2.swift */,
+				DEE1D25320DB8531003444CD /* Setvenue3.swift */,
+				DEE1D27820DB8543003444CD /* Setvenue4.swift */,
+				DEE1D26720DB8539003444CD /* Setvenue5.swift */,
+				DEE1D25E20DB8538003444CD /* StartwithBasic1.swift */,
+				DEE1D26F20DB853E003444CD /* Startwithbasic2.swift */,
+				DEE1D26820DB853A003444CD /* StartWithBasic3.swift */,
+				DEE1D26C20DB853C003444CD /* StartwithBasic4.swift */,
+				DEE1D26520DB8539003444CD /* StartwithBasic5.swift */,
+				DEE1D27A20DB8545003444CD /* test.swift */,
+				DEE1D26D20DB853D003444CD /* ViewController.swift */,
+				DE6057472164ACBC00F27478 /* GoogleService-Info.plist */,
+				DEE1D2AE20DB89A6003444CD /* Assets.xcassets */,
+				DE649E9A205110C60024ECEF /* Info.plist */,
+				DE18B2E320E1F96100742392 /* BasePrice.swift */,
+				DE87CFC720E494EA00743BF3 /* RegisterPersonalAddress.swift */,
+				DE389C57210710B9001C6DE1 /* ResetPassword.swift */,
+				DEFF66B4210732ED009CFD6D /* AfterReset.swift */,
+			);
+			path = AllSwift;
+			sourceTree = "<group>";
+		};
+		DEEB0A7E2125596800F86BC4 /* BarFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB0A7F212559A300F86BC4 /* BarAppOwner.swift */,
+				DEEB0A81212566BE00F86BC4 /* AppBarCollectionViewCell.swift */,
+				DEEB0A832125677A00F86BC4 /* AppBarPubCollectionViewCell.swift */,
+			);
+			path = BarFiles;
+			sourceTree = "<group>";
+		};
+		DEEB0A85212A500100F86BC4 /* LoungesFile */ = {
+			isa = PBXGroup;
+			children = (
+				DEEB0A86212A501F00F86BC4 /* LoungeAppOwner.swift */,
+				DEEB0A88212A518900F86BC4 /* LoungeAppProgCollectionViewCell.swift */,
+				DEEB0A8A212A51AF00F86BC4 /* LoungeAppPubCollectionViewCell.swift */,
+			);
+			path = LoungesFile;
+			sourceTree = "<group>";
+		};
+		DEF471B0216DE50D00B7EFDF /* SettingsUserApp */ = {
+			isa = PBXGroup;
+			children = (
+				DEF471B1216DE53A00B7EFDF /* SettingsViewController.swift */,
+			);
+			path = SettingsUserApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +690,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE649E9D205110C60024ECEF /* Build configuration list for PBXNativeTarget "BottleServiceApp" */;
 			buildPhases = (
+				EA297CDD1ED589F77C1A7D4D /* [CP] Check Pods Manifest.lock */,
 				DE649E87205110C10024ECEF /* Sources */,
 				DE649E88205110C10024ECEF /* Frameworks */,
 				DE649E89205110C10024ECEF /* Resources */,
+				55A29BA2F4FB7053211AB94B /* [CP] Embed Pods Frameworks */,
+				52B8D718BDBD4A59DBE758CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -84,18 +706,51 @@
 			productReference = DE649E8B205110C10024ECEF /* BottleServiceApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DE9DD6D020DCA6860065D082 /* BottleServiceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9DD6D820DCA6860065D082 /* Build configuration list for PBXNativeTarget "BottleServiceAppTests" */;
+			buildPhases = (
+				DE9DD6CD20DCA6860065D082 /* Sources */,
+				DE9DD6CE20DCA6860065D082 /* Frameworks */,
+				DE9DD6CF20DCA6860065D082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9DD6D720DCA6860065D082 /* PBXTargetDependency */,
+			);
+			name = BottleServiceAppTests;
+			productName = BottleServiceAppTests;
+			productReference = DE9DD6D120DCA6860065D082 /* BottleServiceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		DE649E83205110C10024ECEF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Iselacher Digital Media Factory";
 				TargetAttributes = {
 					DE649E8A205110C10024ECEF = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					DE9DD6D020DCA6860065D082 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = DE649E8A205110C10024ECEF;
 					};
 				};
 			};
@@ -104,7 +759,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = DE649E82205110C10024ECEF;
@@ -113,6 +767,7 @@
 			projectRoot = "";
 			targets = (
 				DE649E8A205110C10024ECEF /* BottleServiceApp */,
+				DE9DD6D020DCA6860065D082 /* BottleServiceAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -122,41 +777,264 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE649E99205110C60024ECEF /* LaunchScreen.storyboard in Resources */,
-				DE649E96205110C60024ECEF /* Assets.xcassets in Resources */,
-				DE649E94205110C10024ECEF /* Main.storyboard in Resources */,
+				DEE1D25020DB84AA003444CD /* LaunchScreen.storyboard in Resources */,
+				DE35F2BF20F34992003FD87A /* Main.storyboard in Resources */,
+				DEE1D2AB20DB85EC003444CD /* Default-568h@2x.png in Resources */,
+				DE6057482164ACBC00F27478 /* GoogleService-Info.plist in Resources */,
+				DEE1D2AF20DB89AD003444CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9DD6CF20DCA6860065D082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52B8D718BDBD4A59DBE758CA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BottleServiceApp/Pods-BottleServiceApp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottleServiceApp/Pods-BottleServiceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A29BA2F4FB7053211AB94B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BottleServiceApp/Pods-BottleServiceApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialShowcase/MaterialShowcase.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialShowcase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BottleServiceApp/Pods-BottleServiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA297CDD1ED589F77C1A7D4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BottleServiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE649E87205110C10024ECEF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE649E91205110C10024ECEF /* ViewController.swift in Sources */,
+				DE9881282110454800F15DE2 /* ImageCollectionViewCells.swift in Sources */,
+				DEE1D20420DB8157003444CD /* BookingCollectionViewCell.swift in Sources */,
+				DE98812A211048A500F15DE2 /* SpecificLoc.swift in Sources */,
+				DEE1D29020DB8546003444CD /* StartwithBasic5.swift in Sources */,
+				DEE1D2A120DB8546003444CD /* LocationEvent.swift in Sources */,
+				DEE1D28020DB8546003444CD /* SelectLounge.swift in Sources */,
+				DEE1D2A720DB8546003444CD /* RegisterPersonal1.swift in Sources */,
+				DE87CFC620E3908300743BF3 /* DashboardOwner.swift in Sources */,
+				DEE1D2A920DB855A003444CD /* Account.swift in Sources */,
+				DEE1D29620DB8546003444CD /* RegisterCompany6.swift in Sources */,
+				DEEB0A8B212A51AF00F86BC4 /* LoungeAppPubCollectionViewCell.swift in Sources */,
+				DEE1D20B20DB816A003444CD /* EventCollectionViewCell.swift in Sources */,
+				DEE1D23F20DB829A003444CD /* BarReservation.swift in Sources */,
+				DE87CFCA20E6126500743BF3 /* SearchLocationTableViewController.swift in Sources */,
+				DEE1D1EF20DB80B4003444CD /* UnregisteredOwners.swift in Sources */,
+				DEE1D21020DB817F003444CD /* SpecCollectionViewCell.swift in Sources */,
+				DEE1D2A520DB8546003444CD /* test.swift in Sources */,
+				DEE1D29320DB8546003444CD /* StartWithBasic3.swift in Sources */,
+				DEE1D21620DB81DC003444CD /* LoungeData.swift in Sources */,
+				DEE1D24220DB829A003444CD /* LoadDataOnReservation.swift in Sources */,
+				DEE1D2A320DB8546003444CD /* Setvenue4.swift in Sources */,
+				DEE1D2A620DB8546003444CD /* ClientMain.swift in Sources */,
+				DEE1D22020DB81F4003444CD /* MessageController.swift in Sources */,
+				DEE1D20020DB811B003444CD /* MainPage.swift in Sources */,
+				DEE1D1EE20DB80B4003444CD /* NewMessageControllerApp.swift in Sources */,
+				DE35F2C720F35E8E003FD87A /* Localizable.swift in Sources */,
+				DEE1D28A20DB8546003444CD /* SelectAccount.swift in Sources */,
+				DEE1D1F420DB80DF003444CD /* LoadUnregistered.swift in Sources */,
+				DEE1D28520DB8546003444CD /* Setvenue2.swift in Sources */,
+				DEE1D23320DB8241003444CD /* LoadDataonProgress.swift in Sources */,
+				DEE1D29820DB8546003444CD /* ViewController.swift in Sources */,
+				DEE1D28D20DB8546003444CD /* RegisterCompany3.swift in Sources */,
+				DEE1D20620DB8157003444CD /* LoadDataonBook.swift in Sources */,
+				DE32A3D221509FFC00F32B8E /* ViewBarsCollectionViewCell.swift in Sources */,
+				DEE1D22620DB820A003444CD /* UserCell.swift in Sources */,
+				DEE1D27F20DB8546003444CD /* SetForGuest1.swift in Sources */,
+				DEE1D21F20DB81F4003444CD /* Message.swift in Sources */,
+				DEE1D29120DB8546003444CD /* SelectClient.swift in Sources */,
+				DEE1D22120DB81F4003444CD /* ChatLogController.swift in Sources */,
+				DEE1D1FE20DB811B003444CD /* ClientSettings.swift in Sources */,
+				DEE1D2A020DB8546003444CD /* CustomCell.swift in Sources */,
+				DEE1D1F320DB80DF003444CD /* UnregisteredCollectionViewCell.swift in Sources */,
+				DE9DD6DF20DCB5FB0065D082 /* ViewLounges.swift in Sources */,
+				DEE1D28320DB8546003444CD /* iChat.swift in Sources */,
+				DE87CFC820E494EA00743BF3 /* RegisterPersonalAddress.swift in Sources */,
+				DEE1D2A420DB8546003444CD /* RegisterPersonal4.swift in Sources */,
+				DEE1D1FB20DB811B003444CD /* BarCollectionViewCell.swift in Sources */,
+				DEE1D22E20DB8225003444CD /* LoungeLoadProgress.swift in Sources */,
+				DEE1D28220DB8546003444CD /* RegisterCompany5.swift in Sources */,
+				DE9D6556216C9FDA00777E73 /* GradientButton.swift in Sources */,
+				DEE1D28B20DB8546003444CD /* LocationBar.swift in Sources */,
+				DEE1D22820DB820A003444CD /* ChatMessageCell.swift in Sources */,
+				DEE1D20520DB8157003444CD /* Booking.swift in Sources */,
+				DEE1D23420DB8241003444CD /* LoadDataonPublished.swift in Sources */,
+				DEEB0A87212A501F00F86BC4 /* LoungeAppOwner.swift in Sources */,
+				DEE1D24320DB829A003444CD /* LoungeReservationCollectionViewCell.swift in Sources */,
+				DEE1D24020DB829A003444CD /* BarReservationCollectionViewCell.swift in Sources */,
+				DEE1D22D20DB8225003444CD /* ProgressCollectionViewCell.swift in Sources */,
+				DEE1D1ED20DB80B4003444CD /* DashboardApp.swift in Sources */,
+				DEE1D27D20DB8546003444CD /* SettheVenue.swift in Sources */,
+				DEE1D28120DB8546003444CD /* SelectApp.swift in Sources */,
+				DEE1D29B20DB8546003444CD /* RegisterClient1.swift in Sources */,
+				DEF57B1E21197C6600C35BA2 /* CheckBox.swift in Sources */,
+				DEE1D23520DB8241003444CD /* ProgressBarCollectionViewCell.swift in Sources */,
+				DEE1D29920DB8546003444CD /* RegisterPersonal3.swift in Sources */,
+				DEE1D1FD20DB811B003444CD /* ShareFriends.swift in Sources */,
+				DEE1D29520DB8546003444CD /* LocationLoungeController.swift in Sources */,
+				DEE1D29C20DB8546003444CD /* RegisterCompany4.swift in Sources */,
 				DE649E8F205110C10024ECEF /* AppDelegate.swift in Sources */,
+				DEE1D28920DB8546003444CD /* StartwithBasic1.swift in Sources */,
+				DE18B2E420E1F96100742392 /* BasePrice.swift in Sources */,
+				DEF471B2216DE53A00B7EFDF /* SettingsViewController.swift in Sources */,
+				DEE1D21820DB81DC003444CD /* ImageCollectionViewCell.swift in Sources */,
+				DEEB0A80212559A300F86BC4 /* BarAppOwner.swift in Sources */,
+				DEE1D28F20DB8546003444CD /* ReservationLounge.swift in Sources */,
+				DEE1D28E20DB8546003444CD /* Setvenue1.swift in Sources */,
+				DE32A3D52150CA4500F32B8E /* UnregisteredBarCollectionViewCell.swift in Sources */,
+				DEE1D1EC20DB80B4003444CD /* MessageControllerApp.swift in Sources */,
+				DEEB0A89212A518900F86BC4 /* LoungeAppProgCollectionViewCell.swift in Sources */,
+				DEE1D21220DB81C6003444CD /* User.swift in Sources */,
+				DEE1D23820DB824F003444CD /* ProgressEventCollectionViewCell.swift in Sources */,
+				DEFF66B5210732ED009CFD6D /* AfterReset.swift in Sources */,
+				DE32A3D72150CA7000F32B8E /* UnregisteredBarOwner.swift in Sources */,
+				DEE1D28C20DB8546003444CD /* RegisterCompany1.swift in Sources */,
+				DE389C58210710B9001C6DE1 /* ResetPassword.swift in Sources */,
+				DEE1D23620DB8241003444CD /* PublishedBarCollectionViewCell.swift in Sources */,
+				DE9DD6DC20DCAD0B0065D082 /* Settings.swift in Sources */,
+				DEE1D29720DB8546003444CD /* StartwithBasic4.swift in Sources */,
+				DE98812C2112BA5500F15DE2 /* ZoomInZoomOut.swift in Sources */,
+				DEE1D22720DB820A003444CD /* ChatInputContainerView.swift in Sources */,
+				DEE1D29A20DB8546003444CD /* Startwithbasic2.swift in Sources */,
+				DEE1D28420DB8546003444CD /* LoungeOwnerMain.swift in Sources */,
+				DEE1D2A220DB8546003444CD /* Setup1.swift in Sources */,
+				DEE1D20C20DB816A003444CD /* LoadDataMain.swift in Sources */,
+				DEE1D20A20DB816A003444CD /* cImageCollectionViewCell.swift in Sources */,
+				DEE1D22A20DB8214003444CD /* Extensions.swift in Sources */,
+				DEF57B202119866800C35BA2 /* LoadDataViews.swift in Sources */,
+				DEE1D29D20DB8546003444CD /* AppMain.swift in Sources */,
+				DEE1D21720DB81DC003444CD /* CustomImageFlowLayout.swift in Sources */,
+				DEB66C1720E9DEC400FF6E00 /* ImageService.swift in Sources */,
+				DEE1D28820DB8546003444CD /* SelectUser.swift in Sources */,
+				DEEB0A842125677A00F86BC4 /* AppBarPubCollectionViewCell.swift in Sources */,
+				DEE1D29F20DB8546003444CD /* Login.swift in Sources */,
+				DEE1D29220DB8546003444CD /* Setvenue5.swift in Sources */,
+				DEE1D1FC20DB811B003444CD /* PayAndReview.swift in Sources */,
+				DEE1D21E20DB81F4003444CD /* LoginController+handlers.swift in Sources */,
+				DE273789211D2C1E00E4622F /* PageView.swift in Sources */,
+				DEE1D1FF20DB811B003444CD /* ViewBarLoungeEvent.swift in Sources */,
+				DEE1D28720DB8546003444CD /* RegisterPersonal2.swift in Sources */,
+				DEE1D27E20DB8546003444CD /* Setvenue3.swift in Sources */,
+				DE8F2722214F56D000FC6CDC /* ViewBars.swift in Sources */,
+				DE9DD6E120DCB74B0065D082 /* ViewLoungesCollectionViewCell.swift in Sources */,
+				DEE1D20F20DB817F003444CD /* LoadDataonSpec.swift in Sources */,
+				DEE1D22220DB81F4003444CD /* NewMessageController.swift in Sources */,
+				DEE1D24120DB829A003444CD /* LoungeReservation.swift in Sources */,
+				DEE1D28620DB8546003444CD /* RegisterCompany2.swift in Sources */,
+				DEEB0A82212566BE00F86BC4 /* AppBarCollectionViewCell.swift in Sources */,
+				DEE1D29420DB8546003444CD /* EditProfileLounge.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9DD6CD20DCA6860065D082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		DE9DD6D720DCA6860065D082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE649E8A205110C10024ECEF /* BottleServiceApp */;
+			targetProxy = DE9DD6D620DCA6860065D082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		DE649E92205110C10024ECEF /* Main.storyboard */ = {
+		DE35F2C120F34992003FD87A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DE649E93205110C10024ECEF /* Base */,
+				DE35F2C320F34B90003FD87A /* Base */,
+				DE35F2C420F34BF4003FD87A /* de */,
+				DEA9E3B820F5BB220076BDB1 /* en */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE649E97205110C60024ECEF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE649E98205110C60024ECEF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -166,6 +1044,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -213,7 +1092,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -226,6 +1105,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -267,7 +1147,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,17 +1158,27 @@
 		};
 		DE649E9E205110C60024ECEF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD03066FEF9ED86D4DF02E26 /* Pods-BottleServiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BottleServiceApp/BottleServiceApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VH88B6Q2B7;
-				INFOPLIST_FILE = BottleServiceApp/Info.plist;
+				DEVELOPMENT_TEAM = 82DWBT8BAC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BottleServiceApp/AllSwift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iselacher.BottleServiceApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iselacherdsf.BottleServiceApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,19 +1186,68 @@
 		};
 		DE649E9F205110C60024ECEF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6019EBD14927B9AB4AF6CDD /* Pods-BottleServiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BottleServiceApp/BottleServiceApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VH88B6Q2B7;
-				INFOPLIST_FILE = BottleServiceApp/Info.plist;
+				DEVELOPMENT_TEAM = 82DWBT8BAC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/BottleServiceApp/AllSwift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = iselacher.BottleServiceApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iselacherdsf.BottleServiceApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE9DD6D920DCA6860065D082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82DWBT8BAC;
+				INFOPLIST_FILE = BottleServiceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iselacherdsf.BottleServiceApp.BottleServiceAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BottleServiceApp.app/BottleServiceApp";
+			};
+			name = Debug;
+		};
+		DE9DD6DA20DCA6860065D082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82DWBT8BAC;
+				INFOPLIST_FILE = BottleServiceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iselacherdsf.BottleServiceApp.BottleServiceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BottleServiceApp.app/BottleServiceApp";
 			};
 			name = Release;
 		};
@@ -329,6 +1268,15 @@
 			buildConfigurations = (
 				DE649E9E205110C60024ECEF /* Debug */,
 				DE649E9F205110C60024ECEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9DD6D820DCA6860065D082 /* Build configuration list for PBXNativeTarget "BottleServiceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9DD6D920DCA6860065D082 /* Debug */,
+				DE9DD6DA20DCA6860065D082 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
